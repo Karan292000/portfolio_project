@@ -1,0 +1,115 @@
+/* about section */
+body{
+    background: linear-gradient(to left, #534751 0%, #e9e6eb 100%);
+   
+}
+#about{
+    display:flex;
+    flex-direction: column;
+    box-sizing:border-box;
+    padding:20px;
+    margin-bottom:50px;
+    /* text-align: center; */
+}
+
+#intro{
+    display:flex;
+    flex-direction: column;
+    text-align: justify;
+    padding:10px; 
+    /* text-align: center; */
+}
+#intro h2{
+     font-size:2rem;
+     margin-bottom: 20px;
+
+}
+.content{ 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    width:100%;
+    height:100vh;
+    background-color: transparent;
+    color:rgb(31, 29, 29);
+
+}
+.box-container .box{
+    width:27rem;
+    margin:4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #fff;
+    position: relative;
+}
+
+.box-container .box span{
+    font-size: 1.3rem;
+    background:#222;
+    color:#fff;
+    border-radius: 5rem;
+    padding:.5rem 2.5rem;
+}
+
+.box-container .box h3{
+    font-size: 2rem;
+    color:black;
+    padding-top: 1.5rem;
+}
+
+.box-container .box p{
+    font-size: 1.4rem;
+    color:black;
+    padding: 1rem 0;
+}
+
+.box-container .box i{
+    position: absolute;
+    top:-1.5rem; left:-2.5rem;
+    height:5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 10rem;
+    color:black;
+    background:var(--yellow);
+} */
+.head{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    color:white;
+    font-size: 50px;
+    text-shadow: 5px 5px black;
+}
+.skills{
+    color:white;
+}
+#col1 h1{
+    color:black;
+    font-size: 100px;
+    margin-top: 200px;
+}
+.col-md-8{
+    width:1200px;
+    background-color: blueviolet;
+}
+
+#col2 h1{
+    margin-top: 100px;
+    color:black;
+    font-size: 50px;
+}
+#col3 h1{
+    color:black;
+    font-size: 80px;
+    margin-top: 200px;
+}
+span{
+    font-style: italic;
+    font-weight: bold;
+    color:darkgrey;
+}
+#para-col3{
+    font-variant:small-caps;
+    font-size: 30px;
+    color:lightgoldenrodyellow;
+}

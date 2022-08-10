@@ -1,0 +1,67 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color:black;
+    background: url("./pro-img1.jpg") no-repeat; 
+}
+.image{
+    float:left;
+    width:fit-content;
+    height:30px;
+    padding-right:500px;
+    padding-bottom:10px;
+
+}
+
+.headings{  
+    justify-content:right;
+    margin-left:500px;
+    margin-bottom:50px;
+    color:beige;
+    font-weight:800;
+    font-size:60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#para1{
+    margin-left:300px;
+    color:black;
+    font-size:40px;
+    font-style: italic;
+    font-weight: bold;
+}
+#para2{
+    margin-left:450px;
+    color:black;
+    font-size:40px;
+    font-style: italic;
+    font-weight: bold;
+}
+.btn{
+    height:40px;
+    margin-left: 500px;
+    background-color: transparent;
+    border:4px solid rgb(5, 5, 5);
+    border-radius: 10px;
+    outline:none;
+    transition:.6s ease;
+    margin-bottom: 450px;
+}
+.btn:hover{
+    cursor:pointer;
+    background-color:white;
+    color:black;
+    box-shadow:0 0 5px white,0 0 10px white,0 0 15px white;
+    font-weight: bold;
+}
+span{
+    opacity: 0;
+    transition: all 2s ease;
+    transform: translateY(50px);
+    display: inline-block;
+}
+span.fade{
+    opacity: 1; 
+    transform: translateY(0px); 
+    color:rgb(224, 138, 7)
+}
